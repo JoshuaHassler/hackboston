@@ -42,7 +42,7 @@ task('deploy:laravel', function() {
     run("cp /var/www/.env ./.env");
     run("php artisan key:generate");
     run("php artisan migrate");
-    run("php artisan passport:install");
+//    run("php artisan passport:install");
 })->setPrivate();
 
 /**
