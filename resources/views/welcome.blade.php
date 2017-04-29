@@ -28,7 +28,7 @@
             }
 
             .flex-center {
-                margin-top: 60px;
+                margin-top: 120px;
                 display: flex;
                 justify-content: center;
             }
