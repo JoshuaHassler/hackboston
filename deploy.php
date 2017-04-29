@@ -6,7 +6,7 @@ require 'recipe/laravel.php';
 
 set('repository', 'https://github.com/JoshuaHassler/hackboston.git');
 set('http_user', 'ec2-user');
-set('branch', 'master');
+set('branch', 'jhassler_dev');
 set('keep_releases', 3);
 
 // Servers
