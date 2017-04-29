@@ -28,7 +28,6 @@
             }
 
             .flex-center {
-                margin-top: 120px;
                 display: flex;
                 justify-content: center;
             }
@@ -44,6 +43,7 @@
             }
 
             .content {
+                margin-top: 120px;
                 text-align: center;
             }
 
