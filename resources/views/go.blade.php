@@ -8,15 +8,16 @@
                 <div class="panel-heading">Your Adventure</div>
                 <div class="panel-body">
                     <ul id="event-list">
+                        @foreach($events as $k => $v)
                         <li> 
                             <div class="row vertical-align">
-                                <div class="col-xs-2">
-                                    <img src="http://i.imgur.com/dkY1gph.jpg" alt="..." class="img-thumbnail">
+                                <div class="col-xs-3">
+                                    {!! $v['image'] !!}
                                 </div>
-                                <div class="col-xs-5">
-                                    <p>Fuck off Point</p>
-                                    <p>123 Ass street</p>
-                                    <p>Pub Rating:*****</p>
+                                <div class="col-xs-4">
+                                    <p>{{ $v['name'] }}</p>
+                                    <p>{{ $v['address'] }}</p>
+                                    <p>{{ $v['tag'] }} {{ $v['rating'] }}</p>
                                 </div>
                                 <div class="col-xs-3">
                                     <button>Different Event</button>
@@ -26,43 +27,13 @@
                                 </div>
                             </div>
                         </li>
-                        <li> 
-                            <div class="row vertical-align">
-                                <div class="col-xs-2">
-                                    <img src="http://i.imgur.com/dkY1gph.jpg" alt="..." class="img-thumbnail">
-                                </div>
-                                <div class="col-xs-5">
-                                    <p>FuckPoint</p>
-                                    <p>123 Ass street</p>
-                                    <p>Pub Rating:*****</p>
-                                </div>
-                                <div class="col-xs-3">
-                                    <button>Different Event</button>
-                                </div>
-                                <div class="col-xs-2">
-                                    <i class="js-remove">x</i>
-                                </div>
-                            </div>
-                        </li>
-                        <li> 
-                            <div class="row vertical-align">
-                                <div class="col-xs-2">
-                                    <img src="http://i.imgur.com/dkY1gph.jpg" alt="..." class="img-thumbnail">
-                                </div>
-                                <div class="col-xs-5">
-                                    <p> off Point</p>
-                                    <p>123 Ass street</p>
-                                    <p>Pub Rating:*****</p>
-                                </div>
-                                <div class="col-xs-3">
-                                    <button>Different Event</button>
-                                </div>
-                                <div class="col-xs-2">
-                                    <i class="js-remove">x</i>
-                                </div>
-                            </div>
-                        </li>
+                        @endforeach
                     </ul>
+                </div>
+                <div class="panel-footer">
+                    <button>Add Event</button>
+                    <button onclick="location.href='/go';">Regen Adventure</button>
+                    <button class="go-btn">Lets Go!</button>
                 </div>
             </div>
         </div>

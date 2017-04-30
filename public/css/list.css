@@ -35,8 +35,11 @@
     font-size: 20px;
     color: red;
 }
-
 .js-remove:hover {
     color: #8b0000;
     cursor: pointer;
+}
+.go-btn {
+    float:right;
+    
 }
