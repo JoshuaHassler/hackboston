@@ -1,52 +1,19 @@
-<p align="center"><img src="https://laravel.com/assets/img/components/logo-laravel.svg"></p>
+Go on an Adventure with Go Ventr!
 
-<p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/d/total.svg" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/v/stable.svg" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
-</p>
+Have you ever wanted to just go and do something fun? Maybe something you haven't tried before. The problem is, you have no idea what to do. Go Ventr solves this problem.
 
-## About Laravel
+Go Ventr is a mobile website. With a click of a button, it will generate for you a unique "Adventure". This adventure is a planned sequence of activities throughout the day, that you or a group of friends can head to immediately. Using Google data to select random destinations each time, we guarantee every adventure to be unique!
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel attempts to take the pain out of development by easing common tasks used in the majority of web projects, such as:
+Have 300 dollars, three friends and three days to fill with fun and glory? Set those options in the settings panel (options not available in demo) and generate your own personal adventure. Don't like the order of activities for the day? You can swap them around how you please. Don't like the adventure as a whole? Generate a new one!
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+By adding your phone number, Go Ventr will send you 15 minute text reminders for each upcoming event. Don't want to leave yet? Tell Go Ventr you want to stay for 15 minutes longer, and it will update accordingly. Need an Uber to the next destination? Go Ventr has your back, all through text messages.
 
-Laravel is accessible, yet powerful, providing tools needed for large, robust applications. A superb combination of simplicity, elegance, and innovation give you tools you need to build any application with which you are tasked.
+Go Ventr stores your adventures using a MySQL database running on an Amazon AWS server, and uses Twilio to provide two-way text communication with the server.
 
-## Learning Laravel
+In future updates, we will add personalized settings for adventure generation, along with a Button interface to book Uber rides to upcoming events, book hotels in-between events, and more! Stay tuned.
 
-Laravel has the most extensive and thorough documentation and video tutorial library of any modern web application framework. The [Laravel documentation](https://laravel.com/docs) is thorough, complete, and makes it a breeze to get started learning the framework.
+So what are you waiting for? Try it out! [Go Ventr Demo](goventr.net)
 
-If you're not in the mood to read, [Laracasts](https://laracasts.com) contains over 900 video tutorials on a range of topics including Laravel, modern PHP, unit testing, JavaScript, and more. Boost the skill level of yourself and your entire team by digging into our comprehensive video library.
-
-## Laravel Sponsors
-
-We would like to extend our thanks to the following sponsors for helping fund on-going Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](http://patreon.com/taylorotwell):
-
-- **[Vehikl](http://vehikl.com)**
-- **[Tighten Co.](https://tighten.co)**
-- **[British Software Development](https://www.britishsoftware.co)**
-- **[Styde](https://styde.net)**
-- **[Codecourse](https://www.codecourse.com)**
-- [Fragrantica](https://www.fragrantica.com)
-- [SOFTonSOFA](https://softonsofa.com/)
-
-## Contributing
-
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](http://laravel.com/docs/contributions).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell at taylor@laravel.com. All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT).
+Resources Used
+* Image Credit: [Here](http://alterra.cc/media/turobj/icon/Appalachian_Trail_attr_5.jpg)
+* Home Button CSS: [Here](https://www.sanwebe.com/2014/02/css3-buttons-examples-with-effects-animations/comment-page-2)
