@@ -90,7 +90,13 @@
     <script src="{{ asset('js/Sortable.min.js') }}"></script>
     <script type="text/javascript">
         $('#go-btn').click(function() {
-            var list = document.getEltmentById("event-list");
+            var _token = $('input[name="_token"]').val();
+            adventure = $.post("/start", {_token: _token}, function(data){
+                $('#event-list > li').each(function () {
+                    $.post("/addEvent/"+data[0], {_token: _token});
+                });
+            });
+           location.href='/'; 
         });
     </script>
     <script type="text/javascript">

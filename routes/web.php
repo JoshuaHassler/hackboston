@@ -23,3 +23,5 @@ Auth::routes();
 Route::get('/go', 'GoController@index')->name('Go Ventr');
 
 Route::post('/start', 'GoController@start');
+
+Route::post('/addEvent/{id}', 'GoController@addEvent');
