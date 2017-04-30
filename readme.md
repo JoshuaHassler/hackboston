@@ -1,4 +1,4 @@
-##Go on an Adventure with Go Ventr!
+# Go on an Adventure with Go Ventr!
 
 Have you ever wanted to just go and do something fun? Maybe something you haven't tried before. The problem is, you have no idea what to do. Go Ventr solves this problem.
 
