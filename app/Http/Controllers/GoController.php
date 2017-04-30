@@ -40,7 +40,7 @@ class GoController extends Controller
             $res = $client->request('GET', 'https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference='.$results[$index]->photos[0]->photo_reference.'&key=AIzaSyA6M1RfKD3gKGOe53oFAtefDWgBgN7gcf8');
 
             array_push($adventure, array(
-                'image'   => "<img class='rounded mx-auto d-block' alt='".$results[$index]->name."'src='data:image/jpg;base64,".base64_encode($res->getBody())."' />",
+                'image'   => "<img class='rounded mx-auto d-block' alt='Cool Picture' src='data:image/jpg;base64,".base64_encode($res->getBody())."' />",
                 'name'    => $results[$index]->name,
                 'address' => $results[$index]->vicinity,
                 'tag'     => $results[$index]->types[0],

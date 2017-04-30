@@ -22,5 +22,4 @@ Auth::routes();
 
 Route::get('/go', 'GoController@index')->name('Go Ventr');
 
-Route::group(['namespace' => 'Admin'], function() {
-});
+Route::post('/start', 'GoController@start');
