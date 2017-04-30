@@ -37,6 +37,7 @@ class GoController extends Controller
         $indexes = array_rand($results, 5);
         
         foreach ($indexes as $index) {
+            print_r($results[$index]);
             $res = $client->request('GET', 'https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference='.$results[$index]->photos[0]->photo_reference.'&key=AIzaSyA6M1RfKD3gKGOe53oFAtefDWgBgN7gcf8');
 
             array_push($adventure, array(
