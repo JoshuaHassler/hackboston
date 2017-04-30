@@ -2,4 +2,41 @@
     list-style-type: none;
     margin: 0;
     padding: 0;
+
+}
+
+#event-list img {
+    max-height: 75px;
+}
+
+#event-list p {
+    margin-bottom: 0px !important;
+    margin-top: 1px;
+}
+#event-list li {
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-width: 1px;
+    vertical-align: middle;
+    border-color: #d3e0e9;
+    padding: 5px 0 5px 0;
+}
+.vertical-align {
+    display: flex;
+    align-items: center;
+}
+.vcenter {
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+}
+.js-remove {
+    font-weight: bold;
+    font-size: 20px;
+    color: red;
+}
+
+.js-remove:hover {
+    color: #8b0000;
+    cursor: pointer;
 }

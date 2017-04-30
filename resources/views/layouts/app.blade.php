@@ -89,8 +89,14 @@
     <script src="{{ asset('js/Sortable.min.js') }}"></script>
     <script type="text/javascript">
         document.addEventListener("DOMContentLoaded", function(){
-            var list = document.getElementById("my-ui-list");
-            Sortable.create(list); // That's all.
+            var editable = document.getElementById("event-list");
+            var editableList = Sortable.create(editable, {
+                filter: '.js-remove',
+                onFilter: function (evt) {
+                    var el = editableList.closest(evt.item); // get dragged item
+                    el && el.parentNode.removeChild(el);
+                }
+            });
         });
     </script>
 </body>

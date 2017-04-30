@@ -7,74 +7,58 @@
             <div class="panel panel-default">
                 <div class="panel-heading">Your Adventure</div>
                 <div class="panel-body">
-                    <div class="row">
-                        <div class="col-xs-6">
-                            Place
-                        </div>
-                    </div>
                     <ul id="event-list">
                         <li> 
-                            <div class="row">
+                            <div class="row vertical-align">
+                                <div class="col-xs-2">
+                                    <img src="http://i.imgur.com/dkY1gph.jpg" alt="..." class="img-thumbnail">
+                                </div>
                                 <div class="col-xs-6">
-                                    Fuck off Point
+                                    <p>Fuck off Point</p>
+                                    <p>123 Ass street</p>
+                                    <p>Pub Rating:*****</p>
                                 </div>
                                 <div class="col-xs-3">
-                                    <button>New</button>
+                                    <button>Different Event</button>
                                 </div>
-                                <div class="col-xs-3">
-                                    <button>Delete</button>
+                                <div class="col-xs-1">
+                                    <i class="js-remove">x</i>
                                 </div>
                             </div>
                         </li>
                         <li> 
-                            <div class="row">
+                            <div class="row vertical-align">
+                                <div class="col-xs-2">
+                                    <img src="http://i.imgur.com/dkY1gph.jpg" alt="..." class="img-thumbnail">
+                                </div>
                                 <div class="col-xs-6">
-                                    Duck off Point
+                                    <p>FuckPoint</p>
+                                    <p>123 Ass street</p>
+                                    <p>Pub Rating:*****</p>
                                 </div>
                                 <div class="col-xs-3">
-                                    <button>New</button>
+                                    <button>Different Event</button>
                                 </div>
-                                <div class="col-xs-3">
-                                    <button>Delete</button>
+                                <div class="col-xs-1">
+                                    <i class="js-remove">x</i>
                                 </div>
                             </div>
                         </li>
                         <li> 
-                            <div class="row">
+                            <div class="row vertical-align">
+                                <div class="col-xs-2">
+                                    <img src="http://i.imgur.com/dkY1gph.jpg" alt="..." class="img-thumbnail">
+                                </div>
                                 <div class="col-xs-6">
-                                    Fuck off Pnt
+                                    <p> off Point</p>
+                                    <p>123 Ass street</p>
+                                    <p>Pub Rating:*****</p>
                                 </div>
                                 <div class="col-xs-3">
-                                    <button>New</button>
+                                    <button>Different Event</button>
                                 </div>
-                                <div class="col-xs-3">
-                                    <button>Delete</button>
-                                </div>
-                            </div>
-                        </li>
-                        <li> 
-                            <div class="row">
-                                <div class="col-xs-6">
-                                    ASS
-                                </div>
-                                <div class="col-xs-3">
-                                    <button>New</button>
-                                </div>
-                                <div class="col-xs-3">
-                                    <button>Delete</button>
-                                </div>
-                            </div>
-                        </li>
-                        <li> 
-                            <div class="row">
-                                <div class="col-xs-6">
-                                    Fuck off Point #2
-                                </div>
-                                <div class="col-xs-3">
-                                    <button>New</button>
-                                </div>
-                                <div class="col-xs-3">
-                                    <button>Delete</button>
+                                <div class="col-xs-1">
+                                    <i class="js-remove">x</i>
                                 </div>
                             </div>
                         </li>
