@@ -35,14 +35,14 @@ def send_user_reminder_of_next_events_if_necessary(cursor):
             time_to_event = event_time - current_time;
             print time_to_event
             total_seconds = time_to_event.total_seconds()
-            if abs(total_seconds) < 15 * 60:
+            if total_seconds < 15 * 60 and total_seconds > 0:
                 print event_id
                 print "The next event is 15 minutes away!"
                 print active_event[6]
                 message = client.messages.create(
                     to="+19788669891",
                     from_="+16176525131",
-                    body="%s: The next event is 15 minutes away!" % adventure_name
+                    body="%s: The next event is 15 minutes away! If you would like to to postpone the next event by 15 minutes, reply with 'postpone'. If you want us to call an uber, replay with 'uber'." % adventure_name
                 )
                 event_started_sql = "UPDATE EVENTS SET STARTED=1 WHERE ID = %s" % (event_id)
                 print event_started_sql
