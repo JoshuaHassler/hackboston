@@ -9,9 +9,7 @@
 
                 <div class="panel-body">
                     You are logged in!
-                    <body>
                         <div data-bttnio-id="test"></div>
-                    </body>
                 </div>
             </div>
         </div>
