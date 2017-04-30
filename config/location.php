@@ -89,7 +89,7 @@ return [
 
     'testing' => [
 
-        'enabled' => false,
+        'enabled' => true,
 
         'ip' => '',
 

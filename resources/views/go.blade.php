@@ -33,7 +33,9 @@
                 <div class="panel-footer">
                     <button>Add Event</button>
                     <button onclick="location.href='/go';">Regen Adventure</button>
-                    <button class="go-btn">Lets Go!</button>
+                    {{ Form::open(array('action' => array('JobController@jobOffer', $interviews->interview_id))) }}
+                        <button type='submit' class="go-btn">Lets Go!</button>
+                    {{ Form::close() }}
                 </div>
             </div>
         </div>
