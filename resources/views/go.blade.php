@@ -13,7 +13,7 @@
                                 <div class="col-xs-2">
                                     <img src="http://i.imgur.com/dkY1gph.jpg" alt="..." class="img-thumbnail">
                                 </div>
-                                <div class="col-xs-6">
+                                <div class="col-xs-5">
                                     <p>Fuck off Point</p>
                                     <p>123 Ass street</p>
                                     <p>Pub Rating:*****</p>
@@ -21,7 +21,7 @@
                                 <div class="col-xs-3">
                                     <button>Different Event</button>
                                 </div>
-                                <div class="col-xs-1">
+                                <div class="col-xs-2">
                                     <i class="js-remove">x</i>
                                 </div>
                             </div>
@@ -31,7 +31,7 @@
                                 <div class="col-xs-2">
                                     <img src="http://i.imgur.com/dkY1gph.jpg" alt="..." class="img-thumbnail">
                                 </div>
-                                <div class="col-xs-6">
+                                <div class="col-xs-5">
                                     <p>FuckPoint</p>
                                     <p>123 Ass street</p>
                                     <p>Pub Rating:*****</p>
@@ -39,7 +39,7 @@
                                 <div class="col-xs-3">
                                     <button>Different Event</button>
                                 </div>
-                                <div class="col-xs-1">
+                                <div class="col-xs-2">
                                     <i class="js-remove">x</i>
                                 </div>
                             </div>
@@ -49,7 +49,7 @@
                                 <div class="col-xs-2">
                                     <img src="http://i.imgur.com/dkY1gph.jpg" alt="..." class="img-thumbnail">
                                 </div>
-                                <div class="col-xs-6">
+                                <div class="col-xs-5">
                                     <p> off Point</p>
                                     <p>123 Ass street</p>
                                     <p>Pub Rating:*****</p>
@@ -57,7 +57,7 @@
                                 <div class="col-xs-3">
                                     <button>Different Event</button>
                                 </div>
-                                <div class="col-xs-1">
+                                <div class="col-xs-2">
                                     <i class="js-remove">x</i>
                                 </div>
                             </div>
