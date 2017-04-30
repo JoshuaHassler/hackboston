@@ -15,7 +15,7 @@ client = Client(account_sid, auth_token)
 
 def send_user_reminder_of_next_events_if_necessary(cursor):
     current_time = datetime.datetime.now() # .strftime("%Y-%m-%d %H:%M:%S")
-    current_time = datetime.datetime.strptime("2017-05-06 15:50:00", "%Y-%m-%d %H:%M:%S")
+    #current_time = datetime.datetime.strptime("2017-05-06 15:50:00", "%Y-%m-%d %H:%M:%S")
     print current_time
     # Find current adventure
     active_adventure_sql = "SELECT * FROM ADVENTURES WHERE ACTIVE = 1"
