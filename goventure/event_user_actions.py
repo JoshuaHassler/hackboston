@@ -30,7 +30,8 @@ def sms_reply():
 
 
 def add_15_minutes_to_start_time_of_next_events():
-    current_time = datetime.datetime.strptime("2017-05-06 15:50:00", "%Y-%m-%d %H:%M:%S")
+    #current_time = datetime.datetime.strptime("2017-05-06 15:50:00", "%Y-%m-%d %H:%M:%S")
+    current_time = datetime.datetime.now()
     db = MySQLdb.connect("localhost", "testuser", "test123", "GO_VENTR_DB")
     cursor = db.cursor()
     """For each adventure, find event with
