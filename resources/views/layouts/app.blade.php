@@ -85,8 +85,14 @@
 
     <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}"></script>
+    <script src="{{ asset('js/jquery.min.js') }}"></script>
     <script src="{{ asset('js/angular.min.js') }}"></script>
     <script src="{{ asset('js/Sortable.min.js') }}"></script>
+    <script type="text/javascript">
+        $('#go-btn').click(function() {
+            var list = document.getEltmentById("event-list");
+        });
+    </script>
     <script type="text/javascript">
         document.addEventListener("DOMContentLoaded", function(){
             var editable = document.getElementById("event-list");
