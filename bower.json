@@ -1,0 +1,21 @@
+{
+  "name": "GoVentr",
+  "description": "",
+  "main": "public/index.php",
+  "authors": [
+    "Joshua Hassler <joshua_hassler@student.uml.edu>"
+  ],
+  "license": "GPL",
+  "homepage": "goventr.net",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.6.4",
+    "Sortable": "sortablejs#^1.5.1"
+  }
+}

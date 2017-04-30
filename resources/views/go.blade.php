@@ -5,22 +5,83 @@
     <div class="row">
         <div class="col-md-8 col-md-offset-2">
             <div class="panel panel-default">
-                <div class="panel-heading">Dashboard</div>
-
+                <div class="panel-heading">Your Adventure</div>
                 <div class="panel-body">
-                    You are logged in!
-                        <div data-bttnio-id="test"></div>
+                    <div class="row">
+                        <div class="col-xs-6">
+                            Place
+                        </div>
+                    </div>
+                    <ul id="event-list">
+                        <li> 
+                            <div class="row">
+                                <div class="col-xs-6">
+                                    Fuck off Point
+                                </div>
+                                <div class="col-xs-3">
+                                    <button>New</button>
+                                </div>
+                                <div class="col-xs-3">
+                                    <button>Delete</button>
+                                </div>
+                            </div>
+                        </li>
+                        <li> 
+                            <div class="row">
+                                <div class="col-xs-6">
+                                    Duck off Point
+                                </div>
+                                <div class="col-xs-3">
+                                    <button>New</button>
+                                </div>
+                                <div class="col-xs-3">
+                                    <button>Delete</button>
+                                </div>
+                            </div>
+                        </li>
+                        <li> 
+                            <div class="row">
+                                <div class="col-xs-6">
+                                    Fuck off Pnt
+                                </div>
+                                <div class="col-xs-3">
+                                    <button>New</button>
+                                </div>
+                                <div class="col-xs-3">
+                                    <button>Delete</button>
+                                </div>
+                            </div>
+                        </li>
+                        <li> 
+                            <div class="row">
+                                <div class="col-xs-6">
+                                    ASS
+                                </div>
+                                <div class="col-xs-3">
+                                    <button>New</button>
+                                </div>
+                                <div class="col-xs-3">
+                                    <button>Delete</button>
+                                </div>
+                            </div>
+                        </li>
+                        <li> 
+                            <div class="row">
+                                <div class="col-xs-6">
+                                    Fuck off Point #2
+                                </div>
+                                <div class="col-xs-3">
+                                    <button>New</button>
+                                </div>
+                                <div class="col-xs-3">
+                                    <button>Delete</button>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </div>
     </div>
 </div>
-<script>
-window.ButtonWebConfig = {
-  applicationId: 'app-4e830eadf834fbd2'
-};
-(function(u,s,e,b,t,n){
-  u['__bttnio']=b;u[b]=u[b]||function(){(u[b].q=u[b].q||[]).push(arguments)};t=s.createElement(e);n=s.getElementsByTagName(e)[0];t.async=1;t.src='https://web.btncdn.com/v1/button.js';n.parentNode.insertBefore(t,n)
-})(window, document, 'script', 'bttnio');
-</script>
 @endsection

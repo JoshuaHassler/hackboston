@@ -13,6 +13,7 @@
 
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/list.css') }}" rel="stylesheet">
 
     <!-- Scripts -->
     <script>
@@ -84,5 +85,13 @@
 
     <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}"></script>
+    <script src="{{ asset('js/angular.min.js') }}"></script>
+    <script src="{{ asset('js/Sortable.min.js') }}"></script>
+    <script type="text/javascript">
+        document.addEventListener("DOMContentLoaded", function(){
+            var list = document.getElementById("my-ui-list");
+            Sortable.create(list); // That's all.
+        });
+    </script>
 </body>
 </html>
